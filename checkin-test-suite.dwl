@@ -5,7 +5,7 @@ import * from bat::Assertions
 // run the command from this folder bat OR bat ./checkin-test-suite.dwl
 ---
 describe `Happy Path CheckIn` in [
-  PUT `	https://checkin-sri-cicd-xnv2ky.5sc6y6-1.usa-e2.cloudhub.io/api/v1/tickets/PNR777/checkin` with {
+  PUT `https://checkin-sri-cicd-xnv2ky.5sc6y6-1.usa-e2.cloudhub.io/api/v1/tickets/PNR777/checkin` with {
       headers: {
         "Content-Type" : "application/json",
 	      }
